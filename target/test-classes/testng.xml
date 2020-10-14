@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegSuite">
+  <test thread-count="5" name="RegTest">
+  <parameter name="username" value="testuser"></parameter>
+  <parameter name="password" value="welcome123"></parameter>
+    <classes>
+      <class name="testScripts.LoginPage"/>
+    </classes>
+  </test> <!-- RegTest -->
+</suite> <!-- RegSuite -->
